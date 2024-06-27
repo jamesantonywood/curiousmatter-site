@@ -1,4 +1,26 @@
 body {
     background-color: $primary;
     color: $text;
+    transition: background-color 0.6s linear, color 0.6s linear;
+    &.white-bg {
+        background-color: $text;
+        color: $primary;
+    }
 }
+
+main {
+    min-height: 100vh;
+}
+
+section {
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+    padding: 16px;
+    max-width: 1004px;
+    margin: 100px auto;
+    @media screen and (min-width: 768px) {
+        padding: 36px;
+    }
+}
+

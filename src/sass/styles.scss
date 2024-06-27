@@ -11,9 +11,18 @@
 @import 'globals/colours';
 @import 'globals/typography';
 @import 'globals/layout';
+@import 'globals/texture';
 
 /*-------------------------------
 |  Modules
 -------------------------------*/
 @import 'modules/menu';
+
+@import 'modules/home-hero';
+@import 'modules/about-storytelling';
+@import 'modules/what-we-do';
+@import 'modules/who-we-are';
+@import 'modules/work-with-us';
+@import 'modules/footer';
+
 @import 'modules/scratch';

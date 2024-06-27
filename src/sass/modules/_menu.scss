@@ -1,0 +1,31 @@
+.main-menu {
+    display: flex;
+    gap: 16px;
+    ul {
+        list-style-type: none;
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        li {
+            a {
+                text-decoration: none;
+                color: $text;
+            }
+        }
+    }
+}
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+header {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}

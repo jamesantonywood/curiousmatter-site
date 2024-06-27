@@ -1,0 +1,53 @@
+
+
+.who-we-are {
+    .the-team {
+        margin-top: 80px;
+        .team-member {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            margin-bottom: 100px;
+            .image {
+                width: 324px;
+                height: 324px;
+                border-radius: 10px;
+                box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+                aspect-ratio: 1/1;
+                background-color: $secondary;
+                overflow: hidden;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+            .content-container {
+                flex: 1 60%;
+                .content {
+                    margin-bottom: 25px;
+                    .header {
+                        margin-bottom: 24px;
+                        .role {
+                            line-height: 1;
+                            text-transform: uppercase;
+                             font-size: min(max(0.7em, 2vw), 0.9em) !important;;
+                            color: #ACACAC;
+                        }
+                    }
+                }
+               
+            }
+        }
+    }
+    @media screen and (min-width: 768px) {
+        .the-team {
+            .team-member {
+                flex-direction: row;
+                gap: 50px;
+            }
+
+        }
+    }
+}

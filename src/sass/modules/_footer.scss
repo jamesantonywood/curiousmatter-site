@@ -1,0 +1,46 @@
+footer {
+    margin-top: 15vh;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: opacity 0.3s ease;
+    .logo {
+        width:100%;
+        max-width: 500px;
+        svg {
+            width: 100%;
+        }
+    }
+
+    .footer-menu {
+        margin-top: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 36px 50px;
+        // background: $primary;
+        width: 100%;
+        flex-direction: column;
+        .main-menu ul {
+            flex-direction: column;
+            margin-bottom: 50px;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .footer-menu {
+            flex-direction: row;
+            .main-menu ul {
+                flex-direction: row;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.white-bg {
+    footer {
+        opacity: 0;
+    }
+}
