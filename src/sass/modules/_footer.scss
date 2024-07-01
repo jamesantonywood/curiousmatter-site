@@ -1,5 +1,5 @@
 footer {
-    margin-top: 15vh;
+    margin-top: 40vh;
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -7,14 +7,16 @@ footer {
     transition: opacity 0.3s ease;
     .logo {
         width:100%;
-        max-width: 500px;
+        max-width: 300px;
+
+        margin-bottom: 50px;
         svg {
             width: 100%;
         }
     }
 
     .footer-menu {
-        margin-top: 80px;
+        margin-top: 10px;
         display: flex;
         align-items: center;
         justify-content: space-between;

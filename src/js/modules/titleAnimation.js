@@ -37,7 +37,7 @@ export const titleAnimation = () => {
         
         gsap.fromTo(title, {
             transformOrigin: '0% 50%',
-            rotate: 10
+            rotate: 3
         }, {
             ease: 'none',
             rotate: 0,

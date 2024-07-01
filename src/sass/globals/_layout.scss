@@ -15,12 +15,16 @@ main {
 section {
     position: relative;
     z-index: 1;
-    min-height: 100vh;
+    min-height: max(600px, 100vh);
     padding: 16px;
     max-width: 1004px;
     margin: 100px auto;
     @media screen and (min-width: 768px) {
         padding: 36px;
     }
+}
+
+#about {
+    scroll-margin-top: 150px;
 }
 
